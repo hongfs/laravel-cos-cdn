@@ -48,8 +48,6 @@ class InstallCdn extends Command
         $this->callSilent('migrate');
         
         $this->callSilent('db:seed');
-        
-        $this->callSilent('key:generate');
 
         $name = $this->ask('请输入站点名称：');
 

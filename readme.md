@@ -25,14 +25,10 @@
 下载：
 
 ```shell
-$ composer require hongfs/laravel-cdn
+$ composer create-project hongfs/laravel-cos-cdn
 ```
 
 配置：
-
-```
-cp .env.example .env # 拷贝配置文件
-```
 
 ```
 DB_HOST=            # 数据库地址
