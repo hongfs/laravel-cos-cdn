@@ -35,22 +35,22 @@ cp .env.example .env # 拷贝配置文件
 ```
 
 ```
-DB_HOST=			# 数据库地址
-DB_PORT=			# 数据库端口
-DB_DATABASE=		# 数据库名称
-DB_USERNAME=		# 数据库用户名
-DB_PASSWORD=		# 数据库密码
+DB_HOST=            # 数据库地址
+DB_PORT=            # 数据库端口
+DB_DATABASE=        # 数据库名称
+DB_USERNAME=        # 数据库用户名
+DB_PASSWORD=        # 数据库密码
 
 REDIS_HOST=         # Redis地址
 REDIS_PASSWORD=     # Redis密码
-REDIS_PORT=			# Redis端口
+REDIS_PORT=         # Redis端口
 
-STORAGE_BUCKET=		# bucket-appid 例如：libs-1252156936
-STORAGE_SECRET_ID=	# SecretId
-STORAGE_SECRET_KEY=	# SecretKey
-STORAGE_REGION=		# 地域
-STORAGE_PATH=		# 存储路径
-STORAGE_CDN_DOMAIN=	# CDN域名
+STORAGE_BUCKET=     # bucket-appid 例如：libs-1252156936
+STORAGE_SECRET_ID=  # SecretId
+STORAGE_SECRET_KEY= # SecretKey
+STORAGE_REGION=     # 地域
+STORAGE_PATH=       # 存储路径
+STORAGE_CDN_DOMAIN= # CDN域名
 ```
 
 安装
