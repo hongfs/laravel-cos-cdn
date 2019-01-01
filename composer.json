@@ -1,7 +1,12 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "hongfs\/laravel-cos-cdn",
+    "description": "基于Laravel+Python+Redis+Cos的自建CDN",
+    "keywords": [
+		"cdn",
+		"laravel",
+		"python",
+		"cos"
+	],
     "license": "MIT",
     "type": "project",
     "require": {
