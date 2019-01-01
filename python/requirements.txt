@@ -4,20 +4,20 @@
 # index.py: 8,9
 PyMySQL == 0.9.2
 
-# index.py: 17
+# index.py: 16
 cmp_version == 3.0.0
 
-# index.py: 18,19,20,21
+# index.py: 17,18,19,20
 cos_python_sdk_v5 == 1.6.1
 
-# index.py: 15
+# index.py: 14
 numpy == 1.15.4
 
-# index.py: 16
+# index.py: 15
 python_env == 1.0.0
 
 # index.py: 10
 redis == 2.10.6
 
 # index.py: 6
-requests == 2.18.4
+requests == 2.21.0
