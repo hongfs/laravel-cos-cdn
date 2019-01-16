@@ -53,6 +53,8 @@ STORAGE_CDN_DOMAIN= # CDN域名
 
 ```sheel
 # 初始化Laravel程序
+# 默认用户名: admin
+# 默认密码: admin123
 $ php artisan cdn:install
 
 # 安装Python程序依赖库
