@@ -33,6 +33,6 @@ Route::namespace('Admin')->prefix('admin')->group(function() {
 
 Route::get('/', 'IndexController@index')->name('home');
 Route::get('/{alias}/', 'IndexController@show');
-Route::group(['middleware'=> 'throttle:2,10'],function(){
+Route::group(['middleware'=> 'throttle:20,1'],function(){
     Route::get('/{alias}/{version}/', 'IndexController@version')->name('version');
 });
