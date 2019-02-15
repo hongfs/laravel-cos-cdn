@@ -60,7 +60,7 @@
     <script>
         var currentVersion;
         const versionSelect = $('.version');
-        const urlPrefix = `https://{{ config('cdn.storage.domain') }}{{ config('cdn.storage.path') }}{{ $alias }}`;
+        const urlPrefix = `https://{{ config('cdn.storage.domain') }}/{{ config('cdn.storage.path') }}{{ $alias }}`;
 
         $(document).ready($ => {
             getVersionData();
