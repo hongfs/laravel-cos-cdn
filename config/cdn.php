@@ -87,18 +87,6 @@ return [
 
     'delete_files' => env('DELETE_FILE', false),
 
-    'qcloud' => [
-        'secret_id'     => env('COS_SECRET_ID'),
-        'secret_key'    => env('COS_SECRET_KEY'),
-    ],
-
-    'cos' => [
-        'secret_id'     => env('COS_SECRET_ID'),
-        'secret_key'    => env('COS_SECRET_KEY'),
-        'region'        => 'ap-guangzhou',
-        'domain' => 'cdn.hongfs.cn'
-    ],
-
     'storage' => [
         'bucket'        => env('STORAGE_SECRET_BUCKET'),
         'secret_id'     => env('STORAGE_SECRET_ID'),
@@ -113,7 +101,7 @@ return [
         'css'
     ],
 
-    'cron' => env('CRON', '0 0/1 * * *'),
+    'cron' => env('CRON', '0 */1 * * *'),
 
     'python_name' => env('PYTHON_NAME', 'python3')
 ];
