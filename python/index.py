@@ -490,7 +490,8 @@ class CDN(object):
             name 名称
             etag Etag
         '''
-        sql = 'UPDATE packages SET etag="%s" WHERE name="%s"' % (etag, name)
+        sql =   '''UPDATE packages SET etag='%s' WHERE name='%s'
+                ''' % (etag, name)
 
         try:
             self.db.ping(reconnect=True)
