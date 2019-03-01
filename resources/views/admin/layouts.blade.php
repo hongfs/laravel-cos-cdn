@@ -15,7 +15,7 @@
 			<link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/bulmaswatch/0.7.2/{{ $_theme }}/bulmaswatch.min.css" />
 		@endisset
 		<link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/basscss/8.0.0/css/basscss.min.css" />
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" />
+		<link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/font-awesome/5.6.3/css/all.min.css" />
 		<script src="https://cdnjs.loli.net/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://cdnjs.loli.net/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 		<script src="https://cdnjs.loli.net/ajax/libs/jquery-validate/1.17.0/localization/messages_zh.min.js"></script>
