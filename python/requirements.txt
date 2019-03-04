@@ -14,7 +14,7 @@ cos_python_sdk_v5 == 1.6.1
 numpy == 1.15.4
 
 # index.py: 15
-python_env == 1.0.0
+python-dotenv == 0.10.1
 
 # index.py: 10
 redis == 2.10.6
