@@ -72,7 +72,7 @@
                 const url = $(trigger).parents('tr').find('td').eq(0).text();
                 if($(trigger).attr('data-copy') == 'tag') {
                     if(/\.css$/.test(url)) return `<link rel="stylesheet" href="${url}" />`;
-                    if(/\.js$/.test(url)) return `<script src="${url}" /><\/script>`;
+                    if(/\.js$/.test(url)) return `<script src="${url}"><\/script>`;
                 }
                 return url;
             }
