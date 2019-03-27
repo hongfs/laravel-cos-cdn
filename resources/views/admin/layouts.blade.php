@@ -25,6 +25,16 @@
 				border-color: #dbdbdb;
 			}
 
+			body {
+				display: flex;
+				min-height: 100vh;
+				flex-direction: column;
+			}
+
+			body .columns {
+				flex: 1;
+			}
+
 			.top-bar .field.search {
 				width: 300px;
 			}

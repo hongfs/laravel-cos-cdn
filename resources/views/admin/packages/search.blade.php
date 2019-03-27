@@ -14,7 +14,7 @@
         </div>
     </div>
 
-    <div id="list"></div>
+    <div id="list mt3"></div>
 
     <script>
         const list = @json($list);
