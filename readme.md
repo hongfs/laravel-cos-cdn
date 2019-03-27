@@ -25,7 +25,7 @@
 下载：
 
 ```shell
-$ composer create-project hongfs/laravel-cos-cdn
+$ composer create-project hongfs/laravel-cos-cdn:dev-master
 ```
 
 配置：
