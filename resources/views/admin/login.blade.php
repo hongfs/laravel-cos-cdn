@@ -19,6 +19,8 @@
 
         #login .card {
             max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         #login .field:last-child {
