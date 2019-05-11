@@ -12,7 +12,7 @@
 		<link rel="dns-prefetch" href="https://gw.alipayobjects.com" />
 		<link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
 		@isset($_theme)
-			<link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/bulmaswatch/0.7.2/{{ $_theme }}/bulmaswatch.min.css" />
+			<link rel="stylesheet" href="/static/bulmaswatch/0.7.2/{{ $_theme }}/bulmaswatch.min.css" />
 		@endisset
 		<link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/basscss/8.0.0/css/basscss.min.css" />
 		<link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/font-awesome/5.6.3/css/all.min.css" />
