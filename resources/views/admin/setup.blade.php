@@ -41,7 +41,7 @@
 
     <script>
         $(document).ready(() => {
-            $("form").on('click', () => {
+            $("#submit").on('click', () => {
                 var data = {};
                 $("form").serializeArray().map(item => data[item.name] = item.value);
 
