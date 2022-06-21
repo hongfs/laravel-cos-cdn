@@ -11,7 +11,7 @@ cmp_version == 3.0.0
 cos_python_sdk_v5 == 1.6.1
 
 # index.py: 14
-numpy == 1.15.4
+numpy == 1.22.0
 
 # index.py: 15
 python-dotenv == 0.10.1
